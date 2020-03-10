@@ -1,1 +1,173 @@
-/* something */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    padding-top: 75px;
+}
+header {
+    background-color: black;
+    width: 100vw;
+    height: 75px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+}
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+.ship-name-links {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 20%;
+    margin-top: -15px;
+    align-items: baseline;
+
+
+    /* Font & Text */
+    font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 350;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    word-spacing: 0px;
+    color: rgb(255, 255, 255);
+}
+.gray-header-links{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 55%;
+    margin-top: -14px;
+    align-items: baseline;
+
+    
+    /*font */
+    font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    color: rgb(139, 147, 155);
+
+}
+
+.field-items{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+}
+
+.item-image {
+    width: 100vw;
+    height: 75vh;
+    position: absolute;
+    display: block;
+
+}
+
+.opaque-overlay {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 50%;
+    margin-top: 60vh;
+}
+.non-opaque-container {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    margin-top: 60vh;
+    justify-content: space-evenly;
+}
+
+.large-text-on-overlay {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+.learn-more-button {
+    background-color: white;
+    padding: 5px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    font-size: 11px;
+    line-height: 34px;
+    font-weight: 700;
+    text-align: center;
+    height: 36px;
+    width: 180px;
+    border-radius: 2px;
+}
+.numbered-items {
+    background-color: #21272B;
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 6vh;
+    margin-top: 70vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-1 {
+    list-style: "01  ";
+    color: white;
+    font-size: 11px;
+    width: 20vw;
+
+}
+.item-2 {
+    list-style: "02  ";
+    color: white;
+    font-size: 11px;
+    width: 20vw;
+}
+.item-3 {
+    list-style: "03  ";
+    color: white;
+    font-size: 11px;
+    width: 20vw;
+}
+.tag-line {
+    width: 100vw;
+    height: 15vh;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 85vh;
+    font-size: 18px;
+    font-weight: 700;
+    align-content: center;
+    text-align: center;
+    color: #3a3a3a;
+    padding-left: 25vw;;
+
+}
